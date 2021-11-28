@@ -19,7 +19,7 @@ import 'package:flutter_google_sheet_example/monument_model.dart';
                             fontWeight: FontWeight.bold, fontSize: 25),
                       ),
                       Container(
-                        child: Image.network(monumentList[index].imageUrl),
+                        child: Image.network("https://azamrazali.com/cv/assets/images/logo-02.png"),//monumentList[index].imageUrl),
                       ),
                       Container(
                         child: Text(
